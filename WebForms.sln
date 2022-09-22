@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32516.85
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebForm.App", "src\WebForm.App\WebForm.App.csproj", "{3B5F6EAF-3752-425A-804B-F8699989463E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - Presentation", "1 - Presentation", "{6850A8B4-CA55-4B96-A534-4C03CC34A0F9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - Infra", "2 - Infra", "{99FE0FF7-CC33-4725-958C-439D17E08BB0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2.2 - CrossCutting", "2.2 - CrossCutting", "{AFC12608-F362-4602-9BA1-59A674D8F5AA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2.1 - Data", "2.1 - Data", "{8B2DF24E-2145-4F09-AA1B-48822BFE3E6B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebForm.Data", "src\WebForm.Data\WebForm.Data.csproj", "{BC0B313E-EAD3-494F-97B7-5532E989F197}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebForm.App.IoC", "src\WebForm.App.IoC\WebForm.App.IoC.csproj", "{F5CAD9E9-24BF-4D80-8BF5-005827318360}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3B5F6EAF-3752-425A-804B-F8699989463E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3B5F6EAF-3752-425A-804B-F8699989463E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3B5F6EAF-3752-425A-804B-F8699989463E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3B5F6EAF-3752-425A-804B-F8699989463E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BC0B313E-EAD3-494F-97B7-5532E989F197}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC0B313E-EAD3-494F-97B7-5532E989F197}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC0B313E-EAD3-494F-97B7-5532E989F197}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC0B313E-EAD3-494F-97B7-5532E989F197}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F5CAD9E9-24BF-4D80-8BF5-005827318360}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F5CAD9E9-24BF-4D80-8BF5-005827318360}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F5CAD9E9-24BF-4D80-8BF5-005827318360}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F5CAD9E9-24BF-4D80-8BF5-005827318360}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{3B5F6EAF-3752-425A-804B-F8699989463E} = {6850A8B4-CA55-4B96-A534-4C03CC34A0F9}
+		{AFC12608-F362-4602-9BA1-59A674D8F5AA} = {99FE0FF7-CC33-4725-958C-439D17E08BB0}
+		{8B2DF24E-2145-4F09-AA1B-48822BFE3E6B} = {99FE0FF7-CC33-4725-958C-439D17E08BB0}
+		{BC0B313E-EAD3-494F-97B7-5532E989F197} = {8B2DF24E-2145-4F09-AA1B-48822BFE3E6B}
+		{F5CAD9E9-24BF-4D80-8BF5-005827318360} = {AFC12608-F362-4602-9BA1-59A674D8F5AA}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1C206CE2-8107-45D7-B4A5-31AACACCF70E}
+	EndGlobalSection
+EndGlobal
